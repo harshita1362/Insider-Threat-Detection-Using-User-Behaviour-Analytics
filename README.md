@@ -1,89 +1,90 @@
-🛡️ Insider Threat Detection Using User Behaviour Analytics (UBA)
+Insider Threat Detection Using User Behaviour Analytics (UBA)
 
-An Intelligent & Adaptive Cybersecurity Framework for Insider Threat Detection
+An intelligent cybersecurity framework for detecting malicious insider activities through user behaviour modelling, anomaly detection, temporal analysis, and explainable AI.
 
-🔍 Overview
+Overview
 
-Developing an intelligent cybersecurity framework to identify malicious insider activities through user behaviour analytics, anomaly detection, temporal modelling, and Explainable AI.
+This project aims to develop an adaptive insider threat detection system that identifies suspicious user activities by learning individual behavioural patterns and detecting deviations from established baselines.
 
-The system aims to learn individual behavioural patterns, detect deviations from normal activities, and identify potential insider threats using machine learning and deep learning techniques.
+The framework combines machine learning, deep learning, and explainable AI to improve threat detection, interpretability, and generalization across different datasets.
 
-🎯 Key Objectives
+Key Features
 
-- 👤 Behavioural Profiling: Establish user-specific behavioural baselines.
-- 🔎 Anomaly Detection: Identify unusual and suspicious user activities.
-- ⏱️ Temporal Modelling: Analyse sequential and time-dependent behavioural patterns.
-- 🧠 Adaptive Learning: Investigate concept drift and evolving user behaviour.
-- 🚨 Threat Classification: Detect and classify potential insider threats.
-- 📊 Explainable AI: Interpret model predictions using SHAP.
-- 🔄 Cross-Version Generalization: Evaluate detection performance across different CERT dataset versions.
+- User Behaviour Profiling: Model individual user activity patterns.
+- Anomaly Detection: Identify deviations from normal behavioural patterns.
+- Temporal Analysis: Capture sequential and time-dependent activity patterns.
+- Adaptive Learning: Investigate concept drift and evolving user behaviour.
+- Threat Classification: Classify potentially malicious insider activities.
+- Explainable AI: Apply SHAP to interpret suspicious behaviour.
+- Cross-Version Evaluation: Evaluate generalization across CERT dataset versions.
 
-📂 Dataset
+Research Objectives
+
+1. Develop user-specific behavioural representations.
+2. Investigate hybrid ML and deep learning approaches for insider threat detection.
+3. Improve detection under evolving behavioural patterns.
+4. Evaluate cross-version and cross-dataset generalization.
+5. Provide interpretable threat predictions using explainable AI.
+
+Dataset
 
 CERT Insider Threat Dataset
 
 - CERT r4.2
 - CERT r6.2
 
-Used for behavioural analysis, anomaly detection, and cross-version evaluation.
+The datasets are used to investigate user activity patterns, anomalous behaviour, and insider threat scenarios.
 
-⚙️ Technology Stack
+Dataset access and usage are subject to the original dataset provider's terms.
 
-Category| Technologies
-Programming| Python
-Data Processing| Pandas, NumPy
-Machine Learning| Scikit-learn
-Deep Learning| PyTorch
-Explainable AI| SHAP
-Visualization| Matplotlib, Seaborn
-Dashboard| Streamlit
-Backend API| FastAPI
+Technology Stack
 
-🧪 Research Methodology
+- Programming: Python
+- Data Processing: Pandas, NumPy
+- Machine Learning: Scikit-learn
+- Deep Learning: PyTorch
+- Explainable AI: SHAP
+- Visualization: Matplotlib, Seaborn
+- Dashboard & API: Streamlit, FastAPI
 
-1. Dataset Exploration & Preprocessing
-2. Behavioural Feature Engineering
-3. User-Specific Behaviour Modelling
-4. Baseline Anomaly Detection
-5. Hybrid ML/DL Model Development
-6. Adaptive Behaviour Analysis
-7. Explainable Threat Detection
-8. Cross-Version Performance Evaluation
+Proposed Methodology
 
-📈 Evaluation Metrics
+1. Dataset exploration and preprocessing
+2. Behavioural feature engineering
+3. User-specific behaviour modelling
+4. Baseline anomaly detection
+5. Hybrid ML/DL model development
+6. Adaptive behaviour analysis
+7. Explainability and threat interpretation
+8. Cross-version evaluation
+
+Evaluation Metrics
 
 - Accuracy
-- Precision, Recall & F1-Score
-- ROC-AUC & PR-AUC
-- False Positive Rate (FPR)
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+- PR-AUC
+- False Positive Rate
 - Detection Latency
 
-💡 Research Contributions
+Project Status
 
-- User-specific behavioural anomaly modelling.
-- Adaptive insider threat detection under concept drift.
-- Temporal and sequential activity analysis.
-- Explainable identification of suspicious activities.
-- Cross-version evaluation for model generalization.
+In Development
 
-🚀 Future Enhancements
+Research and implementation are focused on adaptive insider threat detection, temporal behaviour modelling, explainability, and cross-version generalization.
 
-- Real-time user activity monitoring.
-- Intelligent risk scoring.
-- Automated threat alerting.
-- Advanced behavioural sequence modelling.
-- Interactive security analytics dashboard.
+Future Enhancements
 
-📌 Project Status
+- Real-time insider threat monitoring
+- Risk-based user scoring
+- Automated threat alerting
+- Advanced behavioural sequence modelling
+- Enterprise security dashboard
 
-🚧 Currently Under Development
-
-Focused on developing an adaptive and explainable insider threat detection framework with emphasis on behavioural modelling and cross-version generalization.
-
----
-
-👩‍💻 Author
+Author
 
 Harshita
 
-""GitHub"" (https://github.com/harshita1362)
+"GitHub" (https://github.com/harshita1362)
