@@ -22,8 +22,8 @@ The system aims to learn individual behavioural patterns, detect deviations from
 
 CERT Insider Threat Dataset
 
-- CERT r4.2 (Behavioural modelling and model development)
-- CERT r6.2 (Cross-version evaluation and generalization)
+- CERT r4.2
+- CERT r6.2
 
 Used for behavioural analysis, anomaly detection, and cross-version evaluation.
 
